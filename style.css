@@ -32,15 +32,22 @@ body{
     font-size: 18px;
     padding-right: 15px;
 }
+li:hover{
+    background-color: #3b001d;
+    padding: 2%;
+    text-align: center;
+    font-weight: bold;
+}
 #showcase{
     background-image: url('images/bcg-2.jpg');
-    background-position: center right;
+    background-position: left center;
     min-height: 300px;
     margin-bottom: 30px;
     text-align: center;
+    text-shadow: 3px 3px black;
 }
 #showcase h1{
-    color: black;
+    color: #fffdf8;
     font-size: 50px;
     line-height: 1.6em;
     padding-top: 30px;
